@@ -10,7 +10,7 @@
 
           <div class="clearfix">
 
-            <button class="show-heroes visible-xs btn btn-default">Show heroes<span class="caret"></span></button>
+            <button class="show-heroes visible-xs x-component-container btn btn-default">Show heroes<span class="caret"></span></button>
           <div class="roster-hero-tab-column">
           {{#each search roster}}
             {{#unless temporary}}
@@ -26,25 +26,25 @@
                   Out adventuring.
               {{else}}
                 {{#if noHealth health}}
-                <button class="revive btn btn-default btn-danger" data-toggle="tooltip" title="Revive this hero for {{reviveCost}}g">
+                <button class="revive x-component-container btn btn-default" data-toggle="tooltip" title="Revive this hero for {{reviveCost}}g">
                   <span class="glyphicon glyphicon-flash" aria-hidden="true"></span>
                   <span class="sr-only">revive ({{reviveCost}}g)</span>
                 </button>
                 {{/if}}
                 {{#if alive}}
                   {{#if needsHeal}}
-                  <button class="heal btn btn-default" data-toggle="tooltip" title="Heal this hero for {{healCost}}g">
+                  <button class="heal x-component-container btn btn-default" data-toggle="tooltip" title="Heal this hero for {{healCost}}g">
                     <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
                     <span class="sr-only">heal ({{healCost}}g)</span>
                   </button>
                   {{/if}}
                 {{/if}}
-                <button class="fire btn btn-default" data-toggle="tooltip" title="Fire this hero">
+                <button class="fire x-component-container btn btn-default" data-toggle="tooltip" title="Fire this hero">
                   <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>
                   <span class="sr-only">Fire</span>
                 </button>
 
-                <button class="close-detail btn btn-default" data-toggle="tooltip" title="Close this detail overview">
+                <button class="close-detail x-component-container btn btn-default" data-toggle="tooltip" title="Close this detail overview">
                   <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
                   <span class="sr-only">Close</span>
                 </button>

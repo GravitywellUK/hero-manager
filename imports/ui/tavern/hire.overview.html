@@ -1,6 +1,6 @@
 <template name='hire/overview'>
   <div class="clearfix" style="padding-top: 10px; padding-bottom: 10px">
-    <button class="back btn btn-default pull-right">Back</button>
+    <button class="back btn x-component-container btn-default pull-right">Back</button>
   </div>
 
   <div class="hire-overview">
@@ -14,8 +14,8 @@
       {{#if selling}}
         {{>[market/sell]}}
       {{else}}
-        <button class="btn btn-default buy-booster">Add 3 prospects for {{boosterCost}}g</button>
-        <button class="btn btn-default sell">Sell a hero</button>
+        <button class="x-component-container btn btn-default buy-booster">Add 3 prospects for {{boosterCost}}g</button>
+        <button class="x-component-container btn btn-default sell">Sell a hero</button>
 
         <div class="roster-overview">
           <div class="row">
@@ -37,8 +37,8 @@
               {{#if mercDetail}}
               {{#with mercDetail}}
                 {{#[hero-detail]}}
-                  <button class="hire btn btn-default"><strong>Hire: {{salePrice}}g</strong></button>
-                  <button class="remove btn btn-default">Remove from hire list</button>
+                  <button class="hire x-component-container btn btn-default"><strong>Hire: {{salePrice}}g</strong></button>
+                  <button class="remove x-component-container btn btn-default">Remove from hire list</button>
                   <button class="close-modal visible-xs btn btn-default">Close window</button>
                 {{/[hero-detail]}}
               {{/with}}

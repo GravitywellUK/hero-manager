@@ -4,63 +4,71 @@
   {{/if}}
 
   <h3 class="gold-total" style="color: gold;">Gold: {{goldTotal}}</h3>
-  <ul class="toolbar">
-    <li role="presentation">
-      <a href="#" class="toolbar-leaderboard">
-        <span class="glyphicon glyphicon-sort-by-order"></span>
-        <span class="sr-only">Leaderboard</span>
-      </a>
-    </li>
+  <div class="toolbar">
+    <div class="x-component-header">
+      <div class="left"></div>
+      <div class="center"></div>
+      <div class="right"></div>
 
-    <li role="presentation">
-      <a href="#" class="toolbar-chat-window">
-        <span class="glyphicon glyphicon-comment"></span>
-        <span class="sr-only">Chat window</span>
-      </a>
-    </li>
+      <ul class="text">
+        <li role="presentation">
+          <a href="#" class="toolbar-leaderboard">
+            <span class="glyphicon glyphicon-sort-by-order"></span>
+            <span class="sr-only">Leaderboard</span>
+          </a>
+        </li>
 
-    <li role="presentation">
-      <a href="#" class="toolbar-act-select">
-        <span class="glyphicon glyphicon-globe"></span>
-        <span class="sr-only">Act select</span>
-      </a>
-    </li>
+        <li role="presentation">
+          <a href="#" class="toolbar-chat-window">
+            <span class="glyphicon glyphicon-comment"></span>
+            <span class="sr-only">Chat window</span>
+          </a>
+        </li>
 
-    <li role="presentation">
-      <a href="#" class="toolbar-stronghold">
-        <span class="glyphicon glyphicon-tower"></span>
-        <span class="sr-only">Stronghold</span>
-      </a>
-    </li>
+        <li role="presentation">
+          <a href="#" class="toolbar-act-select">
+            <span class="glyphicon glyphicon-globe"></span>
+            <span class="sr-only">Act select</span>
+          </a>
+        </li>
 
-    <li role="presentation">
-      <a href="#" class="toolbar-tavern">
-        <img src="/world/dead-dog-tavern.png">
-        <span class="sr-only">Tavern</span>
-      </a>
-    </li>
+        <li role="presentation">
+          <a href="#" class="toolbar-stronghold">
+            <span class="glyphicon glyphicon-tower"></span>
+            <span class="sr-only">Stronghold</span>
+          </a>
+        </li>
 
-    <li role="presentation">
-      <a href="#" class="toolbar-settings">
-        <span class="glyphicon glyphicon-cog"></span>
-        <span class="sr-only">Settings</span>
-      </a>
-    </li>
+        <li role="presentation">
+          <a href="#" class="toolbar-tavern">
+            <img src="/world/dead-dog-tavern.png">
+            <span class="sr-only">Tavern</span>
+          </a>
+        </li>
 
-    <li role="presentation">
-      {{#if isFullScreen}}
-        <a href="#" class="toolbar-fullscreen">
-          <span class="glyphicon glyphicon-resize-small"></span>
-          <span class="sr-only">Enter Fullscreen</span>
-        </a>
-      {{else}}
-        <a href="#" class="toolbar-fullscreen">
-          <span class="glyphicon glyphicon-resize-full"></span>
-          <span class="sr-only">Exit Fullscreen</span>
-        </a>
-      {{/if}}
-    </li>
-  </ul>
+        <li role="presentation">
+          <a href="#" class="toolbar-settings">
+            <span class="glyphicon glyphicon-cog"></span>
+            <span class="sr-only">Settings</span>
+          </a>
+        </li>
+
+        <li role="presentation">
+          {{#if isFullScreen}}
+            <a href="#" class="toolbar-fullscreen">
+              <span class="glyphicon glyphicon-resize-small"></span>
+              <span class="sr-only">Enter Fullscreen</span>
+            </a>
+          {{else}}
+            <a href="#" class="toolbar-fullscreen">
+              <span class="glyphicon glyphicon-resize-full"></span>
+              <span class="sr-only">Exit Fullscreen</span>
+            </a>
+          {{/if}}
+        </li>
+      </ul>
+    </div>
+  </div>
 
   <div class="map-container">
     <div class="map-drag-wrapper" draggable="true" style="
@@ -85,9 +93,9 @@
                   <span class="sr-only">{{battleProgress}}% Complete</span>
                 </div>
               </div>
-              <button class="btn btn-default pull-right view-battle">Observe</button>
+              <button class="x-component-container btn btn-default pull-right view-battle">Observe</button>
             {{else}}
-              <button class="btn btn-default pull-right start-quest">Start</button>
+              <button class="x-component-container btn btn-default pull-right start-quest">Start</button>
             {{/if}}
             <div class="map-popover-triangle"></div>
           </div>

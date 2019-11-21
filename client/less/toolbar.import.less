@@ -1,7 +1,8 @@
 .toolbar {
   z-index: 4;
   position: absolute;
-  bottom: 15px;
+  width: 390px;
+  bottom: 0;
   left: 5px;
   right: 65px;
   display: block;
@@ -19,13 +20,18 @@
       width: 40px;
       text-align: center;
       line-height: 40px;
-      background: white;
       color: black;
+      opacity: 0.6;
+      transform: translateY(-6px);
+
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 
   .toolbar-tavern {
-    padding: 8px;
+    padding: 6px 8px 8px;
 
     img {
       max-width: 100%;
