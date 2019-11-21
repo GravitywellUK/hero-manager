@@ -1,0 +1,837 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/lucianbuzzo/.nvm/versions/node/v6.14.3/bin/node',
+1 verbose cli   '/Users/lucianbuzzo/.nvm/versions/node/v6.14.3/bin/npm',
+1 verbose cli   'i' ]
+2 info using npm@3.10.10
+3 info using node@v6.14.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData bcrypt
+20 silly mapToRegistry name bcrypt
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'bcrypt',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'bcrypt',
+23 silly mapToRegistry   name: 'bcrypt',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+25 verbose request uri https://registry.npmjs.org/bcrypt
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 3:27:19 PM
+28 verbose request using bearer token for auth
+29 verbose request id 2d074bda69650b2f
+30 verbose etag W/"46fde888bf5cab729c8f944536d650a8"
+31 verbose lastModified Sun, 14 Apr 2019 09:26:01 GMT
+32 http request GET https://registry.npmjs.org/bcrypt
+33 http 200 https://registry.npmjs.org/bcrypt
+34 verbose headers { date: 'Wed, 20 Nov 2019 15:27:19 GMT',
+34 verbose headers   'content-type': 'application/json',
+34 verbose headers   'transfer-encoding': 'chunked',
+34 verbose headers   connection: 'keep-alive',
+34 verbose headers   'set-cookie': [ '__cfduid=da783c922414c4a57c7897e19a699a7f21574263639; expires=Fri, 20-Dec-19 15:27:19 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+34 verbose headers   'cf-cache-status': 'HIT',
+34 verbose headers   'cache-control': 'max-age=300',
+34 verbose headers   'cf-ray': '538b7282dfcfce6b-LHR',
+34 verbose headers   age: '3583',
+34 verbose headers   etag: 'W/"f544852cfacec9f3e36a6b92d5f5e22f"',
+34 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+34 verbose headers   'last-modified': 'Mon, 18 Nov 2019 10:26:43 GMT',
+34 verbose headers   vary: 'accept-encoding, accept',
+34 verbose headers   'x-amz-meta-rev': '491-fbf842b03ce1c3c1df8aea8b9df6350f',
+34 verbose headers   server: 'cloudflare',
+34 verbose headers   'content-encoding': 'gzip' }
+35 silly get cb [ 200,
+35 silly get   { date: 'Wed, 20 Nov 2019 15:27:19 GMT',
+35 silly get     'content-type': 'application/json',
+35 silly get     'transfer-encoding': 'chunked',
+35 silly get     connection: 'keep-alive',
+35 silly get     'set-cookie': [ '__cfduid=da783c922414c4a57c7897e19a699a7f21574263639; expires=Fri, 20-Dec-19 15:27:19 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+35 silly get     'cf-cache-status': 'HIT',
+35 silly get     'cache-control': 'max-age=300',
+35 silly get     'cf-ray': '538b7282dfcfce6b-LHR',
+35 silly get     age: '3583',
+35 silly get     etag: 'W/"f544852cfacec9f3e36a6b92d5f5e22f"',
+35 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+35 silly get     'last-modified': 'Mon, 18 Nov 2019 10:26:43 GMT',
+35 silly get     vary: 'accept-encoding, accept',
+35 silly get     'x-amz-meta-rev': '491-fbf842b03ce1c3c1df8aea8b9df6350f',
+35 silly get     server: 'cloudflare',
+35 silly get     'content-encoding': 'gzip' } ]
+36 verbose get saving bcrypt to /Users/lucianbuzzo/.npm/registry.npmjs.org/bcrypt/.cache.json
+37 verbose correctMkdir /Users/lucianbuzzo/.npm correctMkdir not in flight; initializing
+38 silly resolveWithNewModule bcrypt@0.8.7 checking installable status
+39 silly cache add args [ 'bcrypt@^0.8.7', null ]
+40 verbose cache add spec bcrypt@^0.8.7
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'bcrypt@^0.8.7',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'bcrypt',
+41 silly cache add   name: 'bcrypt',
+41 silly cache add   rawSpec: '^0.8.7',
+41 silly cache add   spec: '>=0.8.7 <0.9.0',
+41 silly cache add   type: 'range' }
+42 silly addNamed bcrypt@>=0.8.7 <0.9.0
+43 verbose addNamed ">=0.8.7 <0.9.0" is a valid semver range for bcrypt
+44 silly addNameRange { name: 'bcrypt', range: '>=0.8.7 <0.9.0', hasData: false }
+45 silly mapToRegistry name bcrypt
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'bcrypt',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'bcrypt',
+48 silly mapToRegistry   name: 'bcrypt',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+50 verbose addNameRange registry:https://registry.npmjs.org/bcrypt not in flight; fetching
+51 verbose get https://registry.npmjs.org/bcrypt not expired, no request
+52 silly addNameRange number 2 { name: 'bcrypt', range: '>=0.8.7 <0.9.0', hasData: true }
+53 silly addNameRange versions [ 'bcrypt',
+53 silly addNameRange   [ '0.1.2',
+53 silly addNameRange     '0.2.0',
+53 silly addNameRange     '0.2.1',
+53 silly addNameRange     '0.1.3',
+53 silly addNameRange     '0.2.2',
+53 silly addNameRange     '0.2.3',
+53 silly addNameRange     '0.2.4',
+53 silly addNameRange     '0.3.0',
+53 silly addNameRange     '0.3.1',
+53 silly addNameRange     '0.3.2',
+53 silly addNameRange     '0.4.0',
+53 silly addNameRange     '0.4.1',
+53 silly addNameRange     '0.5.0',
+53 silly addNameRange     '0.6.0',
+53 silly addNameRange     '0.7.0',
+53 silly addNameRange     '0.7.1',
+53 silly addNameRange     '0.7.2',
+53 silly addNameRange     '0.7.3',
+53 silly addNameRange     '0.7.4',
+53 silly addNameRange     '0.7.5',
+53 silly addNameRange     '0.7.6',
+53 silly addNameRange     '0.7.7',
+53 silly addNameRange     '0.7.8',
+53 silly addNameRange     '0.8.0',
+53 silly addNameRange     '0.8.1',
+53 silly addNameRange     '0.8.2',
+53 silly addNameRange     '0.8.3',
+53 silly addNameRange     '0.8.4',
+53 silly addNameRange     '0.8.5',
+53 silly addNameRange     '0.8.6',
+53 silly addNameRange     '0.8.7',
+53 silly addNameRange     '1.0.0',
+53 silly addNameRange     '1.0.1',
+53 silly addNameRange     '1.0.2',
+53 silly addNameRange     '1.0.3',
+53 silly addNameRange     '1.1.0-napi',
+53 silly addNameRange     '2.0.0',
+53 silly addNameRange     '2.0.1',
+53 silly addNameRange     '3.0.0',
+53 silly addNameRange     '3.0.1',
+53 silly addNameRange     '3.0.2',
+53 silly addNameRange     '3.0.3',
+53 silly addNameRange     '3.0.4',
+53 silly addNameRange     '3.0.4-napi',
+53 silly addNameRange     '3.0.5',
+53 silly addNameRange     '3.0.6',
+53 silly addNameRange     '3.0.7' ] ]
+54 silly addNamed bcrypt@0.8.7
+55 verbose addNamed "0.8.7" is a plain semver version for bcrypt
+56 warn deprecated bcrypt@0.8.7: bcrypt < v2.0.0 is susceptible to bcrypt wrap-around bug. Upgrade to bcrypt >= v2.0.0 for improved support for newer bcrypt hashes
+57 silly mapToRegistry name bcrypt
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry data Result {
+60 silly mapToRegistry   raw: 'bcrypt',
+60 silly mapToRegistry   scope: null,
+60 silly mapToRegistry   escapedName: 'bcrypt',
+60 silly mapToRegistry   name: 'bcrypt',
+60 silly mapToRegistry   rawSpec: '',
+60 silly mapToRegistry   spec: 'latest',
+60 silly mapToRegistry   type: 'tag' }
+61 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+62 verbose addRemoteTarball https://registry.npmjs.org/bcrypt/-/bcrypt-0.8.7.tgz not in flight; adding
+63 verbose addRemoteTarball [ 'https://registry.npmjs.org/bcrypt/-/bcrypt-0.8.7.tgz',
+63 verbose addRemoteTarball   'bc3875a9afd0a7b2cd231a6a7f218a5ce156b093' ]
+64 info retry fetch attempt 1 at 3:27:19 PM
+65 info attempt registry request try #1 at 3:27:19 PM
+66 http fetch GET https://registry.npmjs.org/bcrypt/-/bcrypt-0.8.7.tgz
+67 verbose request using bearer token for auth
+68 http fetch 200 https://registry.npmjs.org/bcrypt/-/bcrypt-0.8.7.tgz
+69 silly fetchAndShaCheck shasum bc3875a9afd0a7b2cd231a6a7f218a5ce156b093
+70 verbose addTmpTarball /var/folders/9b/hz43wltj0918vdlpqhxzq5th0000gn/T/npm-60238-1d447573/registry.npmjs.org/bcrypt/-/bcrypt-0.8.7.tgz not in flight; adding
+71 verbose addTmpTarball already have metadata; skipping unpack for bcrypt@0.8.7
+72 verbose correctMkdir /Users/lucianbuzzo/.npm correctMkdir not in flight; initializing
+73 silly cache afterAdd bcrypt@0.8.7
+74 verbose afterAdd /Users/lucianbuzzo/.npm/bcrypt/0.8.7/package/package.json not in flight; writing
+75 verbose correctMkdir /Users/lucianbuzzo/.npm correctMkdir not in flight; initializing
+76 verbose afterAdd /Users/lucianbuzzo/.npm/bcrypt/0.8.7/package/package.json written
+77 silly fetchNamedPackageData bindings
+78 silly mapToRegistry name bindings
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry data Result {
+81 silly mapToRegistry   raw: 'bindings',
+81 silly mapToRegistry   scope: null,
+81 silly mapToRegistry   escapedName: 'bindings',
+81 silly mapToRegistry   name: 'bindings',
+81 silly mapToRegistry   rawSpec: '',
+81 silly mapToRegistry   spec: 'latest',
+81 silly mapToRegistry   type: 'tag' }
+82 silly mapToRegistry uri https://registry.npmjs.org/bindings
+83 silly fetchNamedPackageData nan
+84 silly mapToRegistry name nan
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry data Result {
+87 silly mapToRegistry   raw: 'nan',
+87 silly mapToRegistry   scope: null,
+87 silly mapToRegistry   escapedName: 'nan',
+87 silly mapToRegistry   name: 'nan',
+87 silly mapToRegistry   rawSpec: '',
+87 silly mapToRegistry   spec: 'latest',
+87 silly mapToRegistry   type: 'tag' }
+88 silly mapToRegistry uri https://registry.npmjs.org/nan
+89 verbose request uri https://registry.npmjs.org/bindings
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 3:27:19 PM
+92 verbose request using bearer token for auth
+93 verbose etag W/"b8c1052768a277c6904d523ba8ff7b9e"
+94 verbose lastModified Mon, 26 Nov 2018 20:49:32 GMT
+95 http request GET https://registry.npmjs.org/bindings
+96 verbose request uri https://registry.npmjs.org/nan
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 3:27:19 PM
+99 verbose request using bearer token for auth
+100 verbose etag W/"a665a85bde8d605dbf85b9013ecf702b"
+101 verbose lastModified Thu, 16 May 2019 19:11:40 GMT
+102 http request GET https://registry.npmjs.org/nan
+103 http 200 https://registry.npmjs.org/bindings
+104 verbose headers { date: 'Wed, 20 Nov 2019 15:27:19 GMT',
+104 verbose headers   'content-type': 'application/json',
+104 verbose headers   'transfer-encoding': 'chunked',
+104 verbose headers   connection: 'keep-alive',
+104 verbose headers   'set-cookie': [ '__cfduid=da783c922414c4a57c7897e19a699a7f21574263639; expires=Fri, 20-Dec-19 15:27:19 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+104 verbose headers   'cf-cache-status': 'HIT',
+104 verbose headers   'cache-control': 'max-age=300',
+104 verbose headers   'cf-ray': '538b72843b84ce6b-LHR',
+104 verbose headers   age: '3170',
+104 verbose headers   etag: 'W/"8dfe34716157e36596b3ba5e5fcfb617"',
+104 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+104 verbose headers   'last-modified': 'Wed, 27 Feb 2019 22:54:48 GMT',
+104 verbose headers   vary: 'accept-encoding, accept',
+104 verbose headers   'x-amz-meta-rev': '66-b1ca5aefc319d9a2058a07561bf4cc31',
+104 verbose headers   server: 'cloudflare',
+104 verbose headers   'content-encoding': 'gzip' }
+105 silly get cb [ 200,
+105 silly get   { date: 'Wed, 20 Nov 2019 15:27:19 GMT',
+105 silly get     'content-type': 'application/json',
+105 silly get     'transfer-encoding': 'chunked',
+105 silly get     connection: 'keep-alive',
+105 silly get     'set-cookie': [ '__cfduid=da783c922414c4a57c7897e19a699a7f21574263639; expires=Fri, 20-Dec-19 15:27:19 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+105 silly get     'cf-cache-status': 'HIT',
+105 silly get     'cache-control': 'max-age=300',
+105 silly get     'cf-ray': '538b72843b84ce6b-LHR',
+105 silly get     age: '3170',
+105 silly get     etag: 'W/"8dfe34716157e36596b3ba5e5fcfb617"',
+105 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+105 silly get     'last-modified': 'Wed, 27 Feb 2019 22:54:48 GMT',
+105 silly get     vary: 'accept-encoding, accept',
+105 silly get     'x-amz-meta-rev': '66-b1ca5aefc319d9a2058a07561bf4cc31',
+105 silly get     server: 'cloudflare',
+105 silly get     'content-encoding': 'gzip' } ]
+106 verbose get saving bindings to /Users/lucianbuzzo/.npm/registry.npmjs.org/bindings/.cache.json
+107 verbose correctMkdir /Users/lucianbuzzo/.npm correctMkdir not in flight; initializing
+108 silly resolveWithNewModule bindings@1.2.1 checking installable status
+109 silly cache add args [ 'bindings@1.2.1', null ]
+110 verbose cache add spec bindings@1.2.1
+111 silly cache add parsed spec Result {
+111 silly cache add   raw: 'bindings@1.2.1',
+111 silly cache add   scope: null,
+111 silly cache add   escapedName: 'bindings',
+111 silly cache add   name: 'bindings',
+111 silly cache add   rawSpec: '1.2.1',
+111 silly cache add   spec: '1.2.1',
+111 silly cache add   type: 'version' }
+112 silly addNamed bindings@1.2.1
+113 verbose addNamed "1.2.1" is a plain semver version for bindings
+114 silly mapToRegistry name bindings
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry https://registry.npmjs.org/
+117 silly mapToRegistry data Result {
+117 silly mapToRegistry   raw: 'bindings',
+117 silly mapToRegistry   scope: null,
+117 silly mapToRegistry   escapedName: 'bindings',
+117 silly mapToRegistry   name: 'bindings',
+117 silly mapToRegistry   rawSpec: '',
+117 silly mapToRegistry   spec: 'latest',
+117 silly mapToRegistry   type: 'tag' }
+118 silly mapToRegistry uri https://registry.npmjs.org/bindings
+119 verbose addNameVersion registry:https://registry.npmjs.org/bindings not in flight; fetching
+120 verbose get https://registry.npmjs.org/bindings not expired, no request
+121 silly mapToRegistry name bindings
+122 silly mapToRegistry using default registry
+123 silly mapToRegistry registry https://registry.npmjs.org/
+124 silly mapToRegistry data Result {
+124 silly mapToRegistry   raw: 'bindings',
+124 silly mapToRegistry   scope: null,
+124 silly mapToRegistry   escapedName: 'bindings',
+124 silly mapToRegistry   name: 'bindings',
+124 silly mapToRegistry   rawSpec: '',
+124 silly mapToRegistry   spec: 'latest',
+124 silly mapToRegistry   type: 'tag' }
+125 silly mapToRegistry uri https://registry.npmjs.org/bindings
+126 verbose addRemoteTarball https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz not in flight; adding
+127 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+127 verbose addRemoteTarball   '14ad6113812d2d37d72e67b4cacb4bb726505f11' ]
+128 info retry fetch attempt 1 at 3:27:19 PM
+129 info attempt registry request try #1 at 3:27:19 PM
+130 http fetch GET https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+131 verbose request using bearer token for auth
+132 http fetch 200 https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+133 silly fetchAndShaCheck shasum 14ad6113812d2d37d72e67b4cacb4bb726505f11
+134 verbose addTmpTarball /var/folders/9b/hz43wltj0918vdlpqhxzq5th0000gn/T/npm-60238-1d447573/registry.npmjs.org/bindings/-/bindings-1.2.1.tgz not in flight; adding
+135 verbose addTmpTarball already have metadata; skipping unpack for bindings@1.2.1
+136 verbose correctMkdir /Users/lucianbuzzo/.npm correctMkdir not in flight; initializing
+137 silly cache afterAdd bindings@1.2.1
+138 verbose afterAdd /Users/lucianbuzzo/.npm/bindings/1.2.1/package/package.json not in flight; writing
+139 verbose correctMkdir /Users/lucianbuzzo/.npm correctMkdir not in flight; initializing
+140 verbose afterAdd /Users/lucianbuzzo/.npm/bindings/1.2.1/package/package.json written
+141 http 304 https://registry.npmjs.org/nan
+142 verbose headers { date: 'Wed, 20 Nov 2019 15:27:19 GMT',
+142 verbose headers   connection: 'keep-alive',
+142 verbose headers   'set-cookie': [ '__cfduid=dd20b6ac3895961f8b8f014da41e00fc51574263639; expires=Fri, 20-Dec-19 15:27:19 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+142 verbose headers   'cf-cache-status': 'HIT',
+142 verbose headers   'cache-control': 'max-age=300',
+142 verbose headers   'cf-ray': '538b728478a4dc1f-LHR',
+142 verbose headers   age: '575',
+142 verbose headers   etag: '"a665a85bde8d605dbf85b9013ecf702b"',
+142 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+142 verbose headers   'last-modified': 'Thu, 16 May 2019 19:11:40 GMT',
+142 verbose headers   vary: 'accept-encoding, accept',
+142 verbose headers   'x-amz-meta-rev': '187-4027ea0c01577aa817d1396fc47fd498',
+142 verbose headers   server: 'cloudflare' }
+143 silly get cb [ 304,
+143 silly get   { date: 'Wed, 20 Nov 2019 15:27:19 GMT',
+143 silly get     connection: 'keep-alive',
+143 silly get     'set-cookie': [ '__cfduid=dd20b6ac3895961f8b8f014da41e00fc51574263639; expires=Fri, 20-Dec-19 15:27:19 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+143 silly get     'cf-cache-status': 'HIT',
+143 silly get     'cache-control': 'max-age=300',
+143 silly get     'cf-ray': '538b728478a4dc1f-LHR',
+143 silly get     age: '575',
+143 silly get     etag: '"a665a85bde8d605dbf85b9013ecf702b"',
+143 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+143 silly get     'last-modified': 'Thu, 16 May 2019 19:11:40 GMT',
+143 silly get     vary: 'accept-encoding, accept',
+143 silly get     'x-amz-meta-rev': '187-4027ea0c01577aa817d1396fc47fd498',
+143 silly get     server: 'cloudflare' } ]
+144 verbose etag https://registry.npmjs.org/nan from cache
+145 verbose get saving nan to /Users/lucianbuzzo/.npm/registry.npmjs.org/nan/.cache.json
+146 verbose correctMkdir /Users/lucianbuzzo/.npm correctMkdir not in flight; initializing
+147 silly resolveWithNewModule nan@2.3.5 checking installable status
+148 silly cache add args [ 'nan@2.3.5', null ]
+149 verbose cache add spec nan@2.3.5
+150 silly cache add parsed spec Result {
+150 silly cache add   raw: 'nan@2.3.5',
+150 silly cache add   scope: null,
+150 silly cache add   escapedName: 'nan',
+150 silly cache add   name: 'nan',
+150 silly cache add   rawSpec: '2.3.5',
+150 silly cache add   spec: '2.3.5',
+150 silly cache add   type: 'version' }
+151 silly addNamed nan@2.3.5
+152 verbose addNamed "2.3.5" is a plain semver version for nan
+153 silly mapToRegistry name nan
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry https://registry.npmjs.org/
+156 silly mapToRegistry data Result {
+156 silly mapToRegistry   raw: 'nan',
+156 silly mapToRegistry   scope: null,
+156 silly mapToRegistry   escapedName: 'nan',
+156 silly mapToRegistry   name: 'nan',
+156 silly mapToRegistry   rawSpec: '',
+156 silly mapToRegistry   spec: 'latest',
+156 silly mapToRegistry   type: 'tag' }
+157 silly mapToRegistry uri https://registry.npmjs.org/nan
+158 verbose addNameVersion registry:https://registry.npmjs.org/nan not in flight; fetching
+159 verbose get https://registry.npmjs.org/nan not expired, no request
+160 silly mapToRegistry name nan
+161 silly mapToRegistry using default registry
+162 silly mapToRegistry registry https://registry.npmjs.org/
+163 silly mapToRegistry data Result {
+163 silly mapToRegistry   raw: 'nan',
+163 silly mapToRegistry   scope: null,
+163 silly mapToRegistry   escapedName: 'nan',
+163 silly mapToRegistry   name: 'nan',
+163 silly mapToRegistry   rawSpec: '',
+163 silly mapToRegistry   spec: 'latest',
+163 silly mapToRegistry   type: 'tag' }
+164 silly mapToRegistry uri https://registry.npmjs.org/nan
+165 verbose addRemoteTarball https://registry.npmjs.org/nan/-/nan-2.3.5.tgz not in flight; adding
+166 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-2.3.5.tgz',
+166 verbose addRemoteTarball   '822a0dc266290ce4cd3a12282ca3e7e364668a08' ]
+167 info retry fetch attempt 1 at 3:27:19 PM
+168 info attempt registry request try #1 at 3:27:19 PM
+169 http fetch GET https://registry.npmjs.org/nan/-/nan-2.3.5.tgz
+170 verbose request using bearer token for auth
+171 http fetch 200 https://registry.npmjs.org/nan/-/nan-2.3.5.tgz
+172 silly fetchAndShaCheck shasum 822a0dc266290ce4cd3a12282ca3e7e364668a08
+173 verbose addTmpTarball /var/folders/9b/hz43wltj0918vdlpqhxzq5th0000gn/T/npm-60238-1d447573/registry.npmjs.org/nan/-/nan-2.3.5.tgz not in flight; adding
+174 verbose addTmpTarball already have metadata; skipping unpack for nan@2.3.5
+175 verbose correctMkdir /Users/lucianbuzzo/.npm correctMkdir not in flight; initializing
+176 silly cache afterAdd nan@2.3.5
+177 verbose afterAdd /Users/lucianbuzzo/.npm/nan/2.3.5/package/package.json not in flight; writing
+178 verbose correctMkdir /Users/lucianbuzzo/.npm correctMkdir not in flight; initializing
+179 verbose afterAdd /Users/lucianbuzzo/.npm/nan/2.3.5/package/package.json written
+180 silly loadAllDepsIntoIdealTree Finishing
+181 silly loadIdealTree Finishing
+182 silly currentTree hero_manager_2016@
+182 silly currentTree ├── chance@1.1.3
+182 silly currentTree ├── immutable@3.8.2
+182 silly currentTree ├── jquery-ui@1.12.1
+182 silly currentTree ├── jquery@3.4.1
+182 silly currentTree ├─┬ meteor-node-stubs@0.2.11
+182 silly currentTree │ ├── asn1.js@4.9.0
+182 silly currentTree │ ├── assert@1.4.1
+182 silly currentTree │ ├── balanced-match@0.4.2
+182 silly currentTree │ ├── base64-js@1.2.0
+182 silly currentTree │ ├── Base64@0.2.1
+182 silly currentTree │ ├── bn.js@4.11.6
+182 silly currentTree │ ├── brace-expansion@1.1.7
+182 silly currentTree │ ├── brorand@1.0.6
+182 silly currentTree │ ├── browserify-aes@1.0.6
+182 silly currentTree │ ├── browserify-cipher@1.0.0
+182 silly currentTree │ ├── browserify-des@1.0.0
+182 silly currentTree │ ├── browserify-rsa@4.0.1
+182 silly currentTree │ ├── browserify-sign@4.0.0
+182 silly currentTree │ ├── browserify-zlib@0.1.4
+182 silly currentTree │ ├── buffer-xor@1.0.3
+182 silly currentTree │ ├── buffer@4.9.1
+182 silly currentTree │ ├── cipher-base@1.0.3
+182 silly currentTree │ ├── concat-map@0.0.1
+182 silly currentTree │ ├── console-browserify@1.1.0
+182 silly currentTree │ ├── constants-browserify@1.0.0
+182 silly currentTree │ ├── create-ecdh@4.0.0
+182 silly currentTree │ ├── create-hash@1.1.2
+182 silly currentTree │ ├── create-hmac@1.1.4
+182 silly currentTree │ ├── crypto-browserify@3.11.0
+182 silly currentTree │ ├── date-now@0.1.4
+182 silly currentTree │ ├── des.js@1.0.0
+182 silly currentTree │ ├── diffie-hellman@5.0.2
+182 silly currentTree │ ├── domain-browser@1.1.7
+182 silly currentTree │ ├── elliptic@6.3.2
+182 silly currentTree │ ├── events@1.1.1
+182 silly currentTree │ ├── evp_bytestokey@1.0.0
+182 silly currentTree │ ├── fs.realpath@1.0.0
+182 silly currentTree │ ├── glob@7.1.2
+182 silly currentTree │ ├── hash.js@1.0.3
+182 silly currentTree │ ├── http-browserify@1.7.0
+182 silly currentTree │ ├── https-browserify@0.0.1
+182 silly currentTree │ ├── ieee754@1.1.8
+182 silly currentTree │ ├── indexof@0.0.1
+182 silly currentTree │ ├── inflight@1.0.6
+182 silly currentTree │ ├── inherits@2.0.1
+182 silly currentTree │ ├── isarray@1.0.0
+182 silly currentTree │ ├── miller-rabin@4.0.0
+182 silly currentTree │ ├── minimalistic-assert@1.0.0
+182 silly currentTree │ ├── minimatch@3.0.4
+182 silly currentTree │ ├── once@1.4.0
+182 silly currentTree │ ├── os-browserify@0.2.1
+182 silly currentTree │ ├── pako@0.2.9
+182 silly currentTree │ ├── parse-asn1@5.0.0
+182 silly currentTree │ ├── path-browserify@0.0.0
+182 silly currentTree │ ├── path-is-absolute@1.0.1
+182 silly currentTree │ ├── pbkdf2@3.0.9
+182 silly currentTree │ ├── process-nextick-args@1.0.7
+182 silly currentTree │ ├── process@0.11.9
+182 silly currentTree │ ├── public-encrypt@4.0.0
+182 silly currentTree │ ├── punycode@1.4.1
+182 silly currentTree │ ├── querystring-es3@0.2.1
+182 silly currentTree │ ├── querystring@0.2.0
+182 silly currentTree │ ├── randombytes@2.0.3
+182 silly currentTree │ ├── readable-stream@2.2.10
+182 silly currentTree │ ├── rimraf@2.6.1
+182 silly currentTree │ ├── ripemd160@1.0.1
+182 silly currentTree │ ├── safe-buffer@5.0.1
+182 silly currentTree │ ├── sha.js@2.4.8
+182 silly currentTree │ ├── stream-browserify@2.0.1
+182 silly currentTree │ ├── string_decoder@1.0.1
+182 silly currentTree │ ├── timers-browserify@1.4.2
+182 silly currentTree │ ├── tty-browserify@0.0.0
+182 silly currentTree │ ├─┬ url@0.11.0
+182 silly currentTree │ │ └── punycode@1.3.2
+182 silly currentTree │ ├── util-deprecate@1.0.2
+182 silly currentTree │ ├── util@0.10.3
+182 silly currentTree │ ├── vm-browserify@0.0.4
+182 silly currentTree │ └── wrappy@1.0.2
+182 silly currentTree └── ramda@0.20.1
+183 silly idealTree hero_manager_2016@
+183 silly idealTree ├── bcrypt@0.8.7
+183 silly idealTree ├── bindings@1.2.1
+183 silly idealTree ├── chance@1.1.3
+183 silly idealTree ├── immutable@3.8.2
+183 silly idealTree ├── jquery-ui@1.12.1
+183 silly idealTree ├── jquery@3.4.1
+183 silly idealTree ├─┬ meteor-node-stubs@0.2.11
+183 silly idealTree │ ├── asn1.js@4.9.0
+183 silly idealTree │ ├── assert@1.4.1
+183 silly idealTree │ ├── balanced-match@0.4.2
+183 silly idealTree │ ├── base64-js@1.2.0
+183 silly idealTree │ ├── Base64@0.2.1
+183 silly idealTree │ ├── bn.js@4.11.6
+183 silly idealTree │ ├── brace-expansion@1.1.7
+183 silly idealTree │ ├── brorand@1.0.6
+183 silly idealTree │ ├── browserify-aes@1.0.6
+183 silly idealTree │ ├── browserify-cipher@1.0.0
+183 silly idealTree │ ├── browserify-des@1.0.0
+183 silly idealTree │ ├── browserify-rsa@4.0.1
+183 silly idealTree │ ├── browserify-sign@4.0.0
+183 silly idealTree │ ├── browserify-zlib@0.1.4
+183 silly idealTree │ ├── buffer-xor@1.0.3
+183 silly idealTree │ ├── buffer@4.9.1
+183 silly idealTree │ ├── cipher-base@1.0.3
+183 silly idealTree │ ├── concat-map@0.0.1
+183 silly idealTree │ ├── console-browserify@1.1.0
+183 silly idealTree │ ├── constants-browserify@1.0.0
+183 silly idealTree │ ├── create-ecdh@4.0.0
+183 silly idealTree │ ├── create-hash@1.1.2
+183 silly idealTree │ ├── create-hmac@1.1.4
+183 silly idealTree │ ├── crypto-browserify@3.11.0
+183 silly idealTree │ ├── date-now@0.1.4
+183 silly idealTree │ ├── des.js@1.0.0
+183 silly idealTree │ ├── diffie-hellman@5.0.2
+183 silly idealTree │ ├── domain-browser@1.1.7
+183 silly idealTree │ ├── elliptic@6.3.2
+183 silly idealTree │ ├── events@1.1.1
+183 silly idealTree │ ├── evp_bytestokey@1.0.0
+183 silly idealTree │ ├── fs.realpath@1.0.0
+183 silly idealTree │ ├── glob@7.1.2
+183 silly idealTree │ ├── hash.js@1.0.3
+183 silly idealTree │ ├── http-browserify@1.7.0
+183 silly idealTree │ ├── https-browserify@0.0.1
+183 silly idealTree │ ├── ieee754@1.1.8
+183 silly idealTree │ ├── indexof@0.0.1
+183 silly idealTree │ ├── inflight@1.0.6
+183 silly idealTree │ ├── inherits@2.0.1
+183 silly idealTree │ ├── isarray@1.0.0
+183 silly idealTree │ ├── miller-rabin@4.0.0
+183 silly idealTree │ ├── minimalistic-assert@1.0.0
+183 silly idealTree │ ├── minimatch@3.0.4
+183 silly idealTree │ ├── once@1.4.0
+183 silly idealTree │ ├── os-browserify@0.2.1
+183 silly idealTree │ ├── pako@0.2.9
+183 silly idealTree │ ├── parse-asn1@5.0.0
+183 silly idealTree │ ├── path-browserify@0.0.0
+183 silly idealTree │ ├── path-is-absolute@1.0.1
+183 silly idealTree │ ├── pbkdf2@3.0.9
+183 silly idealTree │ ├── process-nextick-args@1.0.7
+183 silly idealTree │ ├── process@0.11.9
+183 silly idealTree │ ├── public-encrypt@4.0.0
+183 silly idealTree │ ├── punycode@1.4.1
+183 silly idealTree │ ├── querystring-es3@0.2.1
+183 silly idealTree │ ├── querystring@0.2.0
+183 silly idealTree │ ├── randombytes@2.0.3
+183 silly idealTree │ ├── readable-stream@2.2.10
+183 silly idealTree │ ├── rimraf@2.6.1
+183 silly idealTree │ ├── ripemd160@1.0.1
+183 silly idealTree │ ├── safe-buffer@5.0.1
+183 silly idealTree │ ├── sha.js@2.4.8
+183 silly idealTree │ ├── stream-browserify@2.0.1
+183 silly idealTree │ ├── string_decoder@1.0.1
+183 silly idealTree │ ├── timers-browserify@1.4.2
+183 silly idealTree │ ├── tty-browserify@0.0.0
+183 silly idealTree │ ├─┬ url@0.11.0
+183 silly idealTree │ │ └── punycode@1.3.2
+183 silly idealTree │ ├── util-deprecate@1.0.2
+183 silly idealTree │ ├── util@0.10.3
+183 silly idealTree │ ├── vm-browserify@0.0.4
+183 silly idealTree │ └── wrappy@1.0.2
+183 silly idealTree ├── nan@2.3.5
+183 silly idealTree └── ramda@0.20.1
+184 silly generateActionsToTake Starting
+185 silly install generateActionsToTake
+186 silly generateActionsToTake Finishing
+187 silly diffTrees action count 3
+188 silly diffTrees add bindings@1.2.1
+189 silly diffTrees add nan@2.3.5
+190 silly diffTrees add bcrypt@0.8.7
+191 silly decomposeActions action count 24
+192 silly decomposeActions fetch bindings@1.2.1
+193 silly decomposeActions extract bindings@1.2.1
+194 silly decomposeActions test bindings@1.2.1
+195 silly decomposeActions preinstall bindings@1.2.1
+196 silly decomposeActions build bindings@1.2.1
+197 silly decomposeActions install bindings@1.2.1
+198 silly decomposeActions postinstall bindings@1.2.1
+199 silly decomposeActions finalize bindings@1.2.1
+200 silly decomposeActions fetch nan@2.3.5
+201 silly decomposeActions extract nan@2.3.5
+202 silly decomposeActions test nan@2.3.5
+203 silly decomposeActions preinstall nan@2.3.5
+204 silly decomposeActions build nan@2.3.5
+205 silly decomposeActions install nan@2.3.5
+206 silly decomposeActions postinstall nan@2.3.5
+207 silly decomposeActions finalize nan@2.3.5
+208 silly decomposeActions fetch bcrypt@0.8.7
+209 silly decomposeActions extract bcrypt@0.8.7
+210 silly decomposeActions test bcrypt@0.8.7
+211 silly decomposeActions preinstall bcrypt@0.8.7
+212 silly decomposeActions build bcrypt@0.8.7
+213 silly decomposeActions install bcrypt@0.8.7
+214 silly decomposeActions postinstall bcrypt@0.8.7
+215 silly decomposeActions finalize bcrypt@0.8.7
+216 silly runTopLevelLifecycles Starting
+217 silly install runPreinstallTopLevelLifecycles
+218 silly preinstall hero_manager_2016@ /Users/lucianbuzzo/projects/hero-manager/app/hero_manager_2016-436a0d60
+219 info lifecycle hero_manager_2016@~preinstall: hero_manager_2016@
+220 silly lifecycle hero_manager_2016@~preinstall: no script for preinstall, continuing
+221 silly executeActions Starting
+222 silly install executeActions
+223 silly doSerial global-install 0
+224 silly doParallel fetch 3
+225 verbose correctMkdir /Users/lucianbuzzo/.npm/_locks correctMkdir not in flight; initializing
+226 verbose lock using /Users/lucianbuzzo/.npm/_locks/staging-5dd16a89446e243a.lock for /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging
+227 silly doParallel extract 3
+228 silly extract bindings@1.2.1
+229 silly extract nan@2.3.5
+230 silly extract bcrypt@0.8.7
+231 verbose unbuild node_modules/.staging/bindings-21841b42
+232 verbose unbuild node_modules/.staging/nan-f9092917
+233 verbose unbuild node_modules/.staging/bcrypt-6cd4bdb0
+234 silly gentlyRm /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bindings-21841b42 is being purged from base /Users/lucianbuzzo/projects/hero-manager/app
+235 verbose gentlyRm don't care about contents; nuking /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bindings-21841b42
+236 silly gentlyRm /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/nan-f9092917 is being purged from base /Users/lucianbuzzo/projects/hero-manager/app
+237 verbose gentlyRm don't care about contents; nuking /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/nan-f9092917
+238 silly gentlyRm /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bcrypt-6cd4bdb0 is being purged from base /Users/lucianbuzzo/projects/hero-manager/app
+239 verbose gentlyRm don't care about contents; nuking /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bcrypt-6cd4bdb0
+240 verbose tar unpack /Users/lucianbuzzo/.npm/bindings/1.2.1/package.tgz
+241 verbose tar unpacking to /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bindings-21841b42
+242 silly gentlyRm /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bindings-21841b42 is being purged
+243 verbose gentlyRm don't care about contents; nuking /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bindings-21841b42
+244 verbose tar unpack /Users/lucianbuzzo/.npm/nan/2.3.5/package.tgz
+245 verbose tar unpacking to /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/nan-f9092917
+246 silly gentlyRm /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/nan-f9092917 is being purged
+247 verbose gentlyRm don't care about contents; nuking /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/nan-f9092917
+248 verbose tar unpack /Users/lucianbuzzo/.npm/bcrypt/0.8.7/package.tgz
+249 verbose tar unpacking to /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bcrypt-6cd4bdb0
+250 silly gentlyRm /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bcrypt-6cd4bdb0 is being purged
+251 verbose gentlyRm don't care about contents; nuking /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bcrypt-6cd4bdb0
+252 silly gunzTarPerm modes [ '755', '644' ]
+253 silly gunzTarPerm modes [ '755', '644' ]
+254 silly gunzTarPerm modes [ '755', '644' ]
+255 silly gunzTarPerm extractEntry package.json
+256 silly gunzTarPerm extractEntry package.json
+257 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+258 silly gunzTarPerm extractEntry package.json
+259 silly gunzTarPerm extractEntry README.md
+260 silly gunzTarPerm extractEntry bindings.js
+261 silly gunzTarPerm extractEntry README.md
+262 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+263 silly gunzTarPerm extractEntry include_dirs.js
+264 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+265 silly gunzTarPerm extractEntry .npmignore
+266 silly gunzTarPerm extractEntry README.md
+267 silly gunzTarPerm extractEntry nan_converters.h
+268 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+269 silly gunzTarPerm extractEntry LICENSE.md
+270 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+271 silly gunzTarPerm extractEntry doc/node_misc.md
+272 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+273 silly gunzTarPerm extractEntry LICENSE
+274 silly gunzTarPerm extractEntry bcrypt.js
+275 silly gunzTarPerm extractEntry Makefile
+276 silly gunzTarPerm extractEntry .travis.yml
+277 silly gunzTarPerm extractEntry CHANGELOG.md
+278 silly gunzTarPerm extractEntry binding.gyp
+279 silly gunzTarPerm extractEntry examples/async_compare.js
+280 silly gunzTarPerm extractEntry examples/forever_gen_salt.js
+281 silly gunzTarPerm extractEntry test/async.js
+282 silly gunzTarPerm extractEntry test/repetitions.js
+283 silly gunzTarPerm extractEntry test/sync.js
+284 silly gunzTarPerm extractEntry ISSUE_TEMPLATE.md
+285 silly gunzTarPerm extractEntry src/bcrypt.cc
+286 silly gunzTarPerm extractEntry src/bcrypt_node.cc
+287 silly gunzTarPerm extractEntry src/blowfish.cc
+288 silly gunzTarPerm extractEntry src/node_blf.h
+289 silly gunzTarPerm extractEntry werker.yml
+290 silly gunzTarPerm extractEntry doc/asyncworker.md
+291 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+292 silly gunzTarPerm extractEntry doc/callback.md
+293 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+294 silly gunzTarPerm extractEntry doc/converters.md
+295 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+296 silly gunzTarPerm extractEntry doc/errors.md
+297 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+298 silly gunzTarPerm extractEntry doc/maybe_types.md
+299 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+300 silly gunzTarPerm extractEntry doc/methods.md
+301 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+302 silly gunzTarPerm extractEntry doc/new.md
+303 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+304 silly gentlyRm /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bindings-21841b42/node_modules is being purged
+305 verbose gentlyRm don't care about contents; nuking /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bindings-21841b42/node_modules
+306 silly gunzTarPerm extractEntry doc/buffers.md
+307 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+308 silly gunzTarPerm extractEntry doc/object_wrappers.md
+309 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 420 ]
+310 silly gunzTarPerm extractEntry doc/persistent.md
+311 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+312 silly gunzTarPerm extractEntry doc/scopes.md
+313 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+314 silly gunzTarPerm extractEntry doc/script.md
+315 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+316 silly gunzTarPerm extractEntry doc/string_bytes.md
+317 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+318 silly gunzTarPerm extractEntry doc/v8_internals.md
+319 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+320 silly gunzTarPerm extractEntry doc/v8_misc.md
+321 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+322 silly gunzTarPerm extractEntry nan.h
+323 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+324 silly gunzTarPerm extractEntry nan_callbacks.h
+325 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+326 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+327 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+328 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+329 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+330 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+331 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+332 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+333 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+334 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+335 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+336 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+337 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+338 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+339 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+340 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+341 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+342 silly gunzTarPerm extractEntry nan_new.h
+343 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+344 silly gunzTarPerm extractEntry nan_object_wrap.h
+345 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+346 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+347 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+348 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+349 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+350 silly gunzTarPerm extractEntry nan_string_bytes.h
+351 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+352 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+353 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 420 ]
+354 silly gunzTarPerm extractEntry nan_weak.h
+355 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+356 silly gunzTarPerm extractEntry CHANGELOG.md
+357 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+358 silly gunzTarPerm extractEntry tools/package.json
+359 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+360 silly gunzTarPerm extractEntry tools/README.md
+361 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+362 silly gunzTarPerm extractEntry tools/1to2.js
+363 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+364 silly gentlyRm /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bcrypt-6cd4bdb0/node_modules is being purged
+365 verbose gentlyRm don't care about contents; nuking /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bcrypt-6cd4bdb0/node_modules
+366 silly gentlyRm /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/nan-f9092917/node_modules is being purged
+367 verbose gentlyRm don't care about contents; nuking /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/nan-f9092917/node_modules
+368 silly doParallel preinstall 3
+369 silly preinstall bindings@1.2.1 /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bindings-21841b42
+370 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
+371 silly preinstall nan@2.3.5 /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/nan-f9092917
+372 info lifecycle nan@2.3.5~preinstall: nan@2.3.5
+373 silly preinstall bcrypt@0.8.7 /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bcrypt-6cd4bdb0
+374 info lifecycle bcrypt@0.8.7~preinstall: bcrypt@0.8.7
+375 silly lifecycle bindings@1.2.1~preinstall: no script for preinstall, continuing
+376 silly lifecycle nan@2.3.5~preinstall: no script for preinstall, continuing
+377 silly lifecycle bcrypt@0.8.7~preinstall: no script for preinstall, continuing
+378 silly doReverseSerial remove 0
+379 silly doSerial move 0
+380 silly doSerial finalize 3
+381 silly finalize /Users/lucianbuzzo/projects/hero-manager/app/node_modules/bindings
+382 silly finalize /Users/lucianbuzzo/projects/hero-manager/app/node_modules/nan
+383 silly finalize /Users/lucianbuzzo/projects/hero-manager/app/node_modules/bcrypt
+384 silly doSerial build 3
+385 silly build bindings@1.2.1
+386 info linkStuff bindings@1.2.1
+387 silly linkStuff bindings@1.2.1 has /Users/lucianbuzzo/projects/hero-manager/app/node_modules as its parent node_modules
+388 verbose linkBins bindings@1.2.1
+389 verbose linkMans bindings@1.2.1
+390 silly build nan@2.3.5
+391 info linkStuff nan@2.3.5
+392 silly linkStuff nan@2.3.5 has /Users/lucianbuzzo/projects/hero-manager/app/node_modules as its parent node_modules
+393 verbose linkBins nan@2.3.5
+394 verbose linkMans nan@2.3.5
+395 silly build bcrypt@0.8.7
+396 info linkStuff bcrypt@0.8.7
+397 silly linkStuff bcrypt@0.8.7 has /Users/lucianbuzzo/projects/hero-manager/app/node_modules as its parent node_modules
+398 verbose linkBins bcrypt@0.8.7
+399 verbose linkMans bcrypt@0.8.7
+400 silly doSerial global-link 0
+401 silly doParallel update-linked 0
+402 silly doSerial install 3
+403 silly install bindings@1.2.1 /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bindings-21841b42
+404 info lifecycle bindings@1.2.1~install: bindings@1.2.1
+405 silly lifecycle bindings@1.2.1~install: no script for install, continuing
+406 silly install nan@2.3.5 /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/nan-f9092917
+407 info lifecycle nan@2.3.5~install: nan@2.3.5
+408 silly lifecycle nan@2.3.5~install: no script for install, continuing
+409 silly install bcrypt@0.8.7 /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging/bcrypt-6cd4bdb0
+410 info lifecycle bcrypt@0.8.7~install: bcrypt@0.8.7
+411 verbose lifecycle bcrypt@0.8.7~install: unsafe-perm in lifecycle true
+412 verbose lifecycle bcrypt@0.8.7~install: PATH: /Users/lucianbuzzo/.nvm/versions/node/v6.14.3/lib/node_modules/npm/bin/node-gyp-bin:/Users/lucianbuzzo/projects/hero-manager/app/node_modules/bcrypt/node_modules/.bin:/Users/lucianbuzzo/projects/hero-manager/app/node_modules/.bin:/Users/lucianbuzzo/.cargo/bin:/Users/lucianbuzzo/.nvm/versions/node/v6.14.3/bin:/Users/lucianbuzzo/.yarn/bin:~/.composer/vendor/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/bin/resinlint:/usr/bin/
+413 verbose lifecycle bcrypt@0.8.7~install: CWD: /Users/lucianbuzzo/projects/hero-manager/app/node_modules/bcrypt
+414 silly lifecycle bcrypt@0.8.7~install: Args: [ '-c', 'node-gyp rebuild' ]
+415 silly lifecycle bcrypt@0.8.7~install: Returned: code: 1  signal: null
+416 info lifecycle bcrypt@0.8.7~install: Failed to exec install script
+417 verbose unlock done using /Users/lucianbuzzo/.npm/_locks/staging-5dd16a89446e243a.lock for /Users/lucianbuzzo/projects/hero-manager/app/node_modules/.staging
+418 silly rollbackFailedOptional Starting
+419 silly rollbackFailedOptional Finishing
+420 silly runTopLevelLifecycles Finishing
+421 silly install printInstalled
+422 verbose stack Error: bcrypt@0.8.7 install: `node-gyp rebuild`
+422 verbose stack Exit status 1
+422 verbose stack     at EventEmitter.<anonymous> (/Users/lucianbuzzo/.nvm/versions/node/v6.14.3/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+422 verbose stack     at emitTwo (events.js:106:13)
+422 verbose stack     at EventEmitter.emit (events.js:191:7)
+422 verbose stack     at ChildProcess.<anonymous> (/Users/lucianbuzzo/.nvm/versions/node/v6.14.3/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+422 verbose stack     at emitTwo (events.js:106:13)
+422 verbose stack     at ChildProcess.emit (events.js:191:7)
+422 verbose stack     at maybeClose (internal/child_process.js:920:16)
+422 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+423 verbose pkgid bcrypt@0.8.7
+424 verbose cwd /Users/lucianbuzzo/projects/hero-manager/app
+425 error Darwin 17.7.0
+426 error argv "/Users/lucianbuzzo/.nvm/versions/node/v6.14.3/bin/node" "/Users/lucianbuzzo/.nvm/versions/node/v6.14.3/bin/npm" "i"
+427 error node v6.14.3
+428 error npm  v3.10.10
+429 error code ELIFECYCLE
+430 error bcrypt@0.8.7 install: `node-gyp rebuild`
+430 error Exit status 1
+431 error Failed at the bcrypt@0.8.7 install script 'node-gyp rebuild'.
+431 error Make sure you have the latest version of node.js and npm installed.
+431 error If you do, this is most likely a problem with the bcrypt package,
+431 error not with npm itself.
+431 error Tell the author that this fails on your system:
+431 error     node-gyp rebuild
+431 error You can get information on how to open an issue for this project with:
+431 error     npm bugs bcrypt
+431 error Or if that isn't available, you can get their info via:
+431 error     npm owner ls bcrypt
+431 error There is likely additional logging output above.
+432 verbose exit [ 1, true ]
