@@ -45,7 +45,7 @@ export const Settings = {
     ]
   },
   expForLevel: (currentLevel) => {
-    return Math.ceil(Math.pow(1.2, currentLevel) * 600);
+    return Math.ceil(Math.pow(1.2, currentLevel) * 150);
   },
   expFromQuest: (quest) => {
     return Math.floor(quest.difficultyRating * 0.58);

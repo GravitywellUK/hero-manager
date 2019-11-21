@@ -91,6 +91,7 @@ Template['map/overview'].helpers({
       act: act,
       userId: Meteor.userId()
     }).fetch();
+    console.log({ q });
     return q ? q : [];
   },
   isSelected: function() {

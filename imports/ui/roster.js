@@ -24,6 +24,7 @@ Template['roster/overview'].onCreated((function() {
   return function() {
     if (!loaded) {
       let roster = Heroes.roster(Meteor.userId());
+      console.log({ roster });
       if (roster.length) {
         State.set('rosterDetail', roster[0].id);
       }
